@@ -1,0 +1,28 @@
+.main-layout {
+  margin: 0 auto;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+
+}
+
+.container {
+  max-width: 1000px;
+  padding: 1em;
+  margin: auto;
+}
+
+/* footer {
+  background-color: var(--clr1);
+  color: var(--clr1bg);
+  padding: 1em;
+  text-align: center;
+} */
+
+footer {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5em;
+  text-align: center;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+}
