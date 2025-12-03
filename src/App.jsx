@@ -4,18 +4,18 @@ import viteLogo from '/vite.svg'
 // import './App.css'
 import './assets/style/main.css'
 
-import { Provider } from 'react-redux'
-import { store } from './store/store.js'
+import { Link } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Provider store={store}>
-        <h1> Mister Toy</h1>
-      </Provider>
-    </>
+    // <div style={{ textAlign: 'center', marginTop: '50px' }}>
+    <Link to="/home">
+      <h1>Mister Toy</h1>
+      <p>Click here to enter the app</p>
+    </Link>
+    // </div>
   )
 }
 
